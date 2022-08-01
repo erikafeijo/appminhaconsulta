@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "cb8a3d89-7ce4-43a0-94a0-f62dc9fb0ce4",
+    "Name": "emailconfconsulta",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "45e68b67-8711-ed11-b83e-0022483764cd"
+  }
+]

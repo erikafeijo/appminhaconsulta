@@ -1,0 +1,80 @@
+Tela_Consulta As screen:
+    Fill: =RGBA(25, 209, 209, 0.92)
+
+    calendário_agendamento As datepicker:
+        DefaultDate: =Today() & agendar_consulta
+        Height: =70
+        Size: =24
+        Width: =261
+        X: =182
+        Y: =578
+        ZIndex: =3
+
+    botão_confirmar As button:
+        Height: =126
+        OnSelect: =Navigate(Tela_Final, ScreenTransition.Fade)
+        Size: =30
+        Text: ="CONFIRMAR"
+        Width: =443
+        X: =104
+        Y: =935
+        ZIndex: =5
+
+    logo2 As image:
+        Height: =237
+        Image: =odontoclinic
+        ImagePosition: =ImagePosition.Center
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Width: =259
+        X: =196
+        Y: =25
+        ZIndex: =6
+
+    Tela_Agendamento As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =Bold
+        Height: =145
+        Size: =35
+        Text: ="AGENDAMENTO"
+        Width: =394
+        X: =128
+        Y: =290
+        ZIndex: =7
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =Bold
+        Height: =70
+        Size: =30
+        Text: ="Agende sua Consulta "
+        Width: =560
+        X: =40
+        Y: =460
+        ZIndex: =8
+
+    Label2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =Bold
+        Height: =63
+        Size: =30
+        Text: ="Unidade"
+        Width: =443
+        X: =98
+        Y: =684
+        ZIndex: =9
+
+    Dropdown1 As dropdown:
+        Height: =70
+        Items: =Consultas
+        Size: =21
+        Width: =575
+        X: =25
+        Y: =816
+        ZIndex: =10
+

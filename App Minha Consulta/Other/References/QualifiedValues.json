@@ -1,0 +1,25 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_new_nomecompleto_forms",
+      "Namespace": "Cadastro do Usuário (Formulários)",
+      "Values": {
+        "Informações": "46483f2f-bc3d-4486-b02b-ac847c5df872"
+      }
+    },
+    {
+      "Kind": "default.cds_new_consultas_forms",
+      "Namespace": "Consultas (Formulários)",
+      "Values": {
+        "Informações": "f92cb705-3001-4394-ab87-cb9f7d394b58"
+      }
+    },
+    {
+      "Kind": "default.cds_new_pacientes_forms",
+      "Namespace": "Pacientes (Formulários)",
+      "Values": {
+        "Informações": "c6d1b6e8-3bb0-455a-be8f-90bbfd8e3530"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_nomecompletos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_nomecompleto",
+    "MaxGetRowsCount": 500,
+    "Name": "Cadastro do Usuário",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "new_cpf": "CPF",
+      "new_datadenascimento": "Data de Nascimento",
+      "new_email": "e-mail",
+      "new_endereco": "Endereço",
+      "new_name": "Name",
+      "new_nomecompleto": "Nome Completo",
+      "new_nomecompleto_AsyncOperations": "Trabalhos do Sistema",
+      "new_nomecompleto_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "new_nomecompleto_DuplicateBaseRecord": "Registros Duplicados (new_nomecompleto_DuplicateBaseRecord)",
+      "new_nomecompleto_DuplicateMatchingRecord": "Registros Duplicados (new_nomecompleto_DuplicateMatchingRecord)",
+      "new_nomecompleto_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "new_nomecompleto_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "new_nomecompleto_ProcessSession": "Sessões de Processo",
+      "new_nomecompleto_SyncErrors": "Erros de Sincronização",
+      "new_nomecompletoid": "Nome Completo:",
+      "new_rg": "RG",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Cadastro do Usuário",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Cadastro do Usuário (Modos de exibição)",
+    "Name": "_new_nomecompleto_views",
+    "RelatedEntityName": "Cadastro do Usuário",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "05257cad-f4f9-49e6-af40-fc09251a4ed8": "Exibição de Localização Avançada de Nome Completo:",
+      "06164465-c1e9-4662-863f-1be6681cf211": "Exibição de Consulta de Nome Completo:",
+      "1e78a5db-5f5e-49b2-921a-35ecd03f5613": "Nome Completo: Ativos(as)",
+      "88098e4d-b94a-4311-9c25-9fd0c5a26166": "Exibição Associada de Nome Completo:",
+      "fba56349-eac7-4f87-88a2-6771fedf32a3": "Nome Completo: Inativos(as)"
+    }
+  },
+  {
+    "DisplayName": "Status (Cadastro do Usuário)",
+    "Name": "new_nomecompleto_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Cadastro do Usuário"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Cadastro do Usuário",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Cadastro do Usuário)",
+    "Name": "new_nomecompleto_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Cadastro do Usuário"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Cadastro do Usuário",
+    "Type": "OptionSetInfo"
+  }
+]

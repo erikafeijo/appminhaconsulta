@@ -1,0 +1,89 @@
+"'Tela Inicial' As screen":
+    OnVisible: |-
+        =Collect('Coleção 2', {Pressed: agendar_consulta.Pressed})
+
+    interface_foto_user As label:
+        Fill: =RGBA(25, 209, 209, 0.92)
+        Height: =524
+        Size: =21
+        Text: =""
+        Width: =640
+        ZIndex: =1
+
+    Image_user As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderStyle: =BorderStyle.Dotted
+        Height: =320
+        Image: =User().Image
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Width: =320
+        X: =160
+        Y: =40
+        ZIndex: =2
+
+    ola_user As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =Bold
+        Height: =134
+        Size: =36
+        Text: ="Olá" & User().FullName
+        Width: =560
+        X: =46
+        Y: =375
+        ZIndex: =3
+
+    interface As label:
+        Fill: =RGBA(125, 240, 222, 0.47)
+        Height: =611
+        Size: =21
+        Text: =""
+        Width: =640
+        Y: =524
+        ZIndex: =4
+
+    logo1 As image:
+        Height: =216
+        Image: =odontoclinic
+        RadiusBottomLeft: =160
+        RadiusBottomRight: =160
+        RadiusTopLeft: =160
+        RadiusTopRight: =160
+        Width: =308
+        X: =172
+        Y: =900
+        ZIndex: =5
+
+    agendar_consulta As button:
+        Height: =70
+        OnSelect: =Navigate(Tela_Consulta, ScreenTransition.Fade) & Tela_Agendamento
+        Size: =24
+        Text: ="Agendar Consulta"
+        Width: =280
+        X: =186
+        Y: =579
+        ZIndex: =6
+
+    botão_cadastro As button:
+        Height: =70
+        OnSelect: =Navigate(Tela_de_Cadastro, ScreenTransition.Fade)
+        Size: =24
+        Text: ="Cadastro"
+        Width: =280
+        X: =186
+        Y: =689
+        ZIndex: =7
+
+    botão_fale_conosco As button:
+        Height: =70
+        OnSelect: =Navigate(Fale_Conosco, ScreenTransition.Fade)
+        Size: =24
+        Text: ="Fale Conosco"
+        Width: =280
+        X: =180
+        Y: =794
+        ZIndex: =8
+

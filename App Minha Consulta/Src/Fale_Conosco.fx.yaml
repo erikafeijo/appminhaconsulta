@@ -1,0 +1,45 @@
+Fale_Conosco As screen:
+    Fill: =RGBA(25, 209, 209, 0.92)
+
+    fale_conosco As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =Bold
+        Height: =70
+        Size: =40
+        Text: ="FALE CONOSCO"
+        Width: =560
+        X: =46
+        Y: =402
+        ZIndex: =1
+
+    logo4 As image:
+        Height: =320
+        Image: =odontoclinic
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Width: =320
+        X: =166
+        Y: =24
+        ZIndex: =2
+
+    botão_enviar As button:
+        Height: =70
+        OnSelect: =Navigate(Tela_Final, ScreenTransition.Fade)
+        Size: =24
+        Text: ="ENVIAR "
+        Width: =280
+        X: =186
+        Y: =972
+        ZIndex: =4
+
+    RichTextEditor2 As richTextEditor:
+        Default: ="Escreva <strong> sua mensagem </strong> aqui."
+        Height: =222
+        Width: =579
+        X: =27
+        Y: =558
+        ZIndex: =5
+
